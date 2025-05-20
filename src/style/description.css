@@ -1,0 +1,30 @@
+.description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+
+.description h1 {
+    font-size: 45px;
+}
+
+.description h3 {
+    letter-spacing: 2px;
+}
+
+.description img {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .description {
+        flex-direction: column;
+    }
+}

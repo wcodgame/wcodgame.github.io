@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto 10px;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    border-radius: 0 0 25px 25px;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    background: linear-gradient(90deg, #4C75A3 0%, #7B61FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.description h3 {
+    letter-spacing: 2px;
+    height: 58px;
+}
+
+.header ul {
+    display: flex;
+    gap: 10px;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header .vk {
+    color: #4C75A3;
+}

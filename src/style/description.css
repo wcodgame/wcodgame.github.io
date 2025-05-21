@@ -7,7 +7,7 @@
     padding: 25px;
     box-sizing: border-box;
     text-align: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .description h1 {
@@ -16,11 +16,26 @@
 
 .description h3 {
     letter-spacing: 2px;
+    height: auto;
 }
 
 .description img {
     width: 100%;
     max-width: 500px;
+}
+
+.description button {
+    background-color: #191A23;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Roboto, sans-serif;
 }
 
 @media (max-width: 768px) {

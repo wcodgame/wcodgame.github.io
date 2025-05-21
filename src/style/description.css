@@ -26,5 +26,6 @@
 @media (max-width: 768px) {
     .description {
         flex-direction: column;
+        padding: 5px;
     }
 }

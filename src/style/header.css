@@ -20,7 +20,9 @@
 
 .description h3 {
     letter-spacing: 2px;
-    height: 58px;
+    height: 200px;
+    max-width: 720px;
+    width: 100%;
 }
 
 .header ul {
@@ -37,4 +39,10 @@
 
 .header .vk {
     color: #4C75A3;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 5px;
+    }
 }
